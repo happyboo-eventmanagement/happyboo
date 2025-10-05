@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happyboo - Event Management</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-purple-700 text-white fixed w-full top-0 left-0 shadow-lg z-50">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+    <div class="flex items-center">
+  <img src="Happybo_Logo-07.png" alt="Happyboo Logo" class="h-12 w-auto">
+</div>
+
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+        <li><a href="#about" class="hover:text-gray-200">About</a></li>
+        <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+        <li><a href="#gallery" class="hover:text-gray-200">Gallery</a></li>
+        <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-purple-100 py-32 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold text-purple-700 mb-4 animate-pulse">Welcome to Happyboo</h2>
+    <p class="text-lg text-gray-600 mb-6">Your Birthday Partner</p>
+    <a href="#services" class="bg-purple-700 text-white px-6 py-3 rounded-lg hover:bg-purple-800 transition">Explore Our Services</a>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="py-20 container mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center text-purple-700 mb-8">About Us</h2>
+    <p class="text-lg leading-relaxed text-gray-700 text-center max-w-3xl mx-auto">
+     HappyBoo is a dedicated birthday event management brand that delivers end-to-end celebration services. From creative theme planning and stylish decor to lighting, props, and personalized elements, we ensure every setup matches your vision. Our team works with a clear focus on detail, quality, and timely execution, so you can enjoy the occasion while we handle the arrangements. With flexible packages to suit different budgets, HappyBoo is committed to making each birthday unique, vibrant, and full of happiness.
+    </p>
+  </section>
+
+  <!-- Services -->
+<section id="services" class="bg-purple-50 py-20">
+  <h2 class="text-4xl font-bold text-center text-purple-700 mb-10">Our Services</h2>
+  <div class="container mx-auto grid md:grid-cols-3 gap-8 px-4">
+    
+    <!-- Service Card 1 -->
+    <a href="standard.html" class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300">
+      <h3 class="text-2xl font-semibold text-purple-700 mb-3">🎉 Standard Birthday Decoration</h3>
+      <p class="text-gray-600 mb-4">
+       A budget-friendly decor package with elegant essentials for a perfect celebration
+      </p>
+      <p class="text-purple-700 font-semibold">Click to view details →</p>
+    </a>
+
+    <!-- Service Card 2 -->
+    <a href="premium.html" class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300">
+      <h3 class="text-2xl font-semibold text-purple-700 mb-3">🥳 Premium Birthday Decoration</h3>
+      <p class="text-gray-600 mb-4">
+       A grand upgrade with premium balloons, customized designs, and elegant add-ons
+      </p>
+      <p class="text-purple-700 font-semibold">Click to view details →</p>
+    </a>
+
+    <!-- Service Card 3 -->
+    <a href="luxury.html" class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300">
+      <h3 class="text-2xl font-semibold text-purple-700 mb-3">🎂 Luxury Birthday <br> Decoration</h3>
+      <p class="text-gray-600 mb-4">
+       A lavish decor setup with luxury elements, acrylic designs, and stunning details
+      </p>
+      <p class="text-purple-700 font-semibold">Click to view details →</p>
+    </a>
+
+  </div>
+</section>
+
+ <section id="gallery" class="py-20 bg-purple-50">
+  <h2 class="text-4xl font-bold text-center text-purple-700 mb-10">Our Gallery</h2>
+
+  <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    
+    <!-- Image 1 -->
+    <div class="overflow-hidden rounded-xl shadow-lg">
+      <img src="gallery/img1.JPG" alt="Birthday Decoration" 
+           class="w-full h-64 object-cover transform hover:scale-110 transition duration-500">
+    </div>
+
+    <!-- Image 2 -->
+    <div class="overflow-hidden rounded-xl shadow-lg">
+      <img src="gallery/img2.JPG" alt="Birthday Setup" 
+           class="w-full h-64 object-cover transform hover:scale-110 transition duration-500">
+    </div>
+
+    <!-- Image 3 -->
+    <div class="overflow-hidden rounded-xl shadow-lg">
+      <img src="gallery/img3.jpg" alt="Decoration Theme" 
+           class="w-full h-64 object-cover transform hover:scale-110 transition duration-500">
+    </div>
+
+    <!-- Image 4 -->
+    <div class="overflow-hidden rounded-xl shadow-lg">
+      <img src="gallery/img4.jpg" alt="Party Setup" 
+           class="w-full h-64 object-cover transform hover:scale-110 transition duration-500">
+    </div>
+
+    <!-- Image 5 -->
+    <div class="overflow-hidden rounded-xl shadow-lg">
+      <img src="gallery/img5.jpg" alt="Balloon Decoration" 
+           class="w-full h-64 object-cover transform hover:scale-110 transition duration-500">
+    </div>
+
+    <!-- Image 6 -->
+    <div class="overflow-hidden rounded-xl shadow-lg">
+      <img src="gallery/img6.JPG" alt="Luxury Birthday Setup" 
+           class="w-full h-64 object-cover transform hover:scale-110 transition duration-500">
+    </div>
+
+  </div>
+</section>
+
+
+
+ <section id="contact" class="py-20 bg-purple-100">
+  <div class="container mx-auto px-4 max-w-2xl bg-white rounded-2xl shadow-lg p-8">
+    <h2 class="text-4xl font-bold text-center text-purple-700 mb-8">Contact Us</h2>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="hidden text-green-600 font-semibold text-center mb-4">
+      ✅ Thank you! Your message has been sent successfully.
+    </div>
+
+    <form id="contactForm" action="https://formspree.io/f/mdkwdzkb" method="POST" class="space-y-6">
+      
+      <!-- Name -->
+      <div>
+        <label class="block text-purple-700 font-semibold mb-2">Your Name</label>
+        <input type="text" name="name" required 
+               class="w-full border border-purple-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label class="block text-purple-700 font-semibold mb-2">Your Email</label>
+        <input type="email" name="email" required 
+               class="w-full border border-purple-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+      </div>
+
+      <!-- Mobile Number -->
+      <div>
+        <label class="block text-purple-700 font-semibold mb-2">Mobile Number</label>
+        <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required
+               class="w-full border border-purple-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label class="block text-purple-700 font-semibold mb-2">Your Message</label>
+        <textarea name="message" rows="4" required 
+                  class="w-full border border-purple-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="text-center">
+        <button type="submit" 
+                class="bg-purple-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300">
+          Send Message
+        </button>
+      </div>
+
+    </form>
+  </div>
+
+  <!-- Simple Success Handling Script -->
+  <script>
+    const form = document.getElementById('contactForm');
+    const successMessage = document.getElementById('successMessage');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); // stop default submit
+      const formData = new FormData(form);
+
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        form.reset();
+        successMessage.classList.remove('hidden');
+        setTimeout(() => {
+          successMessage.classList.add('hidden');
+        }, 4000); // Hide message after 4 seconds
+      } else {
+        alert('❌ Something went wrong. Please try again.');
+      }
+    });
+  </script>
+</section>
+<footer class="bg-purple-700 text-white py-8">
+  <div class="container mx-auto px-4 text-center">
+
+    <!-- Logo -->
+    <div class="flex justify-center mb-6">
+      <img src="Happybo_Logo-07.png" 
+           alt="Happyboo Logo" 
+           class="w-32 h-32 object-contain">
+    </div>
+
+    <!-- Contact Info -->
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6 text-sm sm:text-base">
+      
+      <!-- Phone -->
+      <a href="tel:+919876543210" class="hover:text-yellow-300 transition">
+        📞 +91 7598822026
+      </a>
+
+      <span class="hidden sm:block">|</span>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/happyboo._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="hover:text-pink-400 transition">
+        Instagram - @happyboo._
+      </a>
+
+      <span class="hidden sm:block">|</span>
+
+      <!-- Address -->
+      <span>📍 Madurai, Tamil Nadu, India</span>
+
+    </div>
+
+    <!-- Copyright -->
+    <p class="text-sm text-purple-200">&copy; 2025 Happyboo. All rights reserved.</p>
+
+  </div>
+</footer>
